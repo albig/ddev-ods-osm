@@ -13,7 +13,7 @@ return [
     'DB' => [
         'Connections' => [
             'Default' => [
-                'charset' => 'utf8',
+                'charset' => 'utf8mb4',
                 'driver' => 'mysqli',
             ],
         ],
@@ -81,6 +81,10 @@ return [
             'geo_service_email' => '',
             'geo_service_user' => '',
             'local_js' => '1',
+        ],
+        'scheduler' => [
+            'maxLifetime' => '1440',
+            'showSampleTasks' => '1',
         ],
         'tt_address' => [
             'backwardsCompatFormat' => '%1$s %3$s',

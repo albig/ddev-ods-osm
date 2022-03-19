@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac45de39b7f3f44dc08169214f5e9695",
+    "content-hash": "418a8683bc37102ae15dc47249a96024",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -6544,6 +6544,61 @@
             "support": {
                 "chat": "https://typo3.org/help",
                 "docs": "https://docs.typo3.org/c/typo3/cms-rte-ckeditor/10.4/en-us",
+                "issues": "https://forge.typo3.org",
+                "source": "https://github.com/typo3/typo3"
+            },
+            "time": "2022-03-08T07:44:05+00:00"
+        },
+        {
+            "name": "typo3/cms-scheduler",
+            "version": "v10.4.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-CMS/scheduler.git",
+                "reference": "21f17fc796a1b629005fe9be4a4c619b5bcbd40a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-CMS/scheduler/zipball/21f17fc796a1b629005fe9be4a4c619b5bcbd40a",
+                "reference": "21f17fc796a1b629005fe9be4a4c619b5bcbd40a",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "10.4.26"
+            },
+            "conflict": {
+                "typo3/cms": "*"
+            },
+            "type": "typo3-cms-framework",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "10.4.x-dev"
+                },
+                "typo3/cms": {
+                    "extension-key": "scheduler"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\CMS\\Scheduler\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Core Team",
+                    "email": "typo3cms@typo3.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The TYPO3 Scheduler let's you register tasks to happen at a specific time",
+            "homepage": "https://typo3.org",
+            "support": {
+                "chat": "https://typo3.org/help",
+                "docs": "https://docs.typo3.org/c/typo3/cms-scheduler/10.4/en-us",
                 "issues": "https://forge.typo3.org",
                 "source": "https://github.com/typo3/typo3"
             },
