@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#be1e1e",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+	"style": {
+            weight: 4,
+            color: "#999",
+            opacity: 1,
+            fillColor: "#B0DE5C",
+            fillOpacity: 0.8
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.648010253906248,
+              49.822037122094414
+            ],
+            [
+              13.128662109375,
+              49.822037122094414
+            ],
+            [
+              13.128662109375,
+              50.08181960206069
+            ],
+            [
+              12.648010253906248,
+              50.08181960206069
+            ],
+            [
+              12.648010253906248,
+              49.822037122094414
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -13,7 +13,8 @@
 		"sort-packages": true
 	},
 	"require": {
-		"bobosch/ods-osm": "^3.2",
+		"bobosch/ods-osm": "dev-master",
+		"friendsoftypo3/tt-address": "^6.0",
 		"helhum/typo3-console": "^6.0.0",
 		"typo3/cms-about": "^10.4.0",
 		"typo3/cms-backend": "^10.4.0",
@@ -51,5 +52,11 @@
 		"post-autoload-dump": [
 			"@typo3-cms-scripts"
 		]
+	},
+	"repositories": {
+		"ods-osm": {
+			"type": "path",
+			"url": "/var/www/extensions/ods_osm"
+		}
 	}
 }

@@ -82,6 +82,12 @@ return [
             'geo_service_user' => '',
             'local_js' => '1',
         ],
+        'tt_address' => [
+            'backwardsCompatFormat' => '%1$s %3$s',
+            'newPagination' => '1',
+            'readOnlyNameField' => '1',
+            'storeBackwardsCompatName' => '1',
+        ],
     ],
     'FE' => [
         'debug' => false,
