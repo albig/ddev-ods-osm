@@ -1,7 +1,7 @@
 <?php
 return [
     'BE' => [
-        'debug' => false,
+        'debug' => true,
         'explicitADmode' => 'explicitAllow',
         'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$bGpiUDJMeU5rRW9pcDVWaw$1/S3APyYh4nHD2i9tbOADpB+srnT9zYq5TpMOaJuxrE',
         'loginSecurityLevel' => 'normal',
@@ -94,7 +94,7 @@ return [
         ],
     ],
     'FE' => [
-        'debug' => false,
+        'debug' => true,
         'disableNoCacheParameter' => true,
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
@@ -117,7 +117,7 @@ return [
                     'writerConfiguration' => [
                         'notice' => [
                             'TYPO3\CMS\Core\Log\Writer\FileWriter' => [
-                                'disabled' => true,
+                                'disabled' => false,
                             ],
                         ],
                     ],
@@ -165,14 +165,20 @@ return [
                 ],
             ],
         ],
-        'devIPmask' => '',
-        'displayErrors' => 0,
+        'devIPmask' => '*',
+        'displayErrors' => 1,
         'encryptionKey' => '458706a9bfabd25dbaa8aa607a00c100f938aea1ccd513bdf0a8932aa16d82bbad21140fefae841a956eaacfefd5995f',
-        'exceptionalErrors' => 4096,
+        'exceptionalErrors' => 12290,
         'features' => [
             'felogin.extbase' => true,
             'fluidBasedPageModule' => true,
+            'form.legacyUploadMimeTypes' => true,
             'rearrangedRedirectMiddlewares' => true,
+            'redirects.hitCount' => false,
+            'security.backend.enforceReferrer' => true,
+            'security.backend.htmlSanitizeRte' => false,
+            'security.frontend.htmlSanitizeParseFuncDefault' => true,
+            'security.frontend.keepSessionDataOnLogout' => false,
             'unifiedPageTranslationHandling' => true,
             'yamlImportsFollowDeclarationOrder' => true,
         ],
