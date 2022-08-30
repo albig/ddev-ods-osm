@@ -16,6 +16,7 @@
 		"bobosch/ods-osm": "dev-master",
 		"friendsoftypo3/tt-address": "^6.0",
 		"helhum/typo3-console": "^6.0.0",
+		"sgalinski/lfeditor": "^7.1",
 		"typo3/cms-about": "^10.4.0",
 		"typo3/cms-backend": "^10.4.0",
 		"typo3/cms-belog": "^10.4.0",

@@ -70,6 +70,17 @@ return [
             'useMysqlFulltext' => '0',
             'xlhtml' => '/usr/bin/',
         ],
+        'lfeditor' => [
+            'beMainModuleName' => 'user',
+            'changeXlfDate' => '1',
+            'defaultLanguage' => '',
+            'editModeExtension' => '1',
+            'extIgnore' => '/^(CVS|.svn|.git|csh_)/',
+            'extWhitelist' => '',
+            'pathAdditionalConfiguration' => 'typo3conf/AdditionalConfiguration.php',
+            'searchRegex' => '/^([a-z0-9_]*locallang[a-z0-9_-]*\\.(php|xml)|[^\\.]*\\.xlf)$/i',
+            'viewLanguages' => '',
+        ],
         'ods_osm' => [
             'autocomplete' => '1',
             'cache_enabled' => '1',
